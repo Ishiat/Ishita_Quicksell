@@ -1,0 +1,37 @@
+.ticket-display {
+  position: relative;
+}
+
+.display-button {
+  border: 0.5px solid #ccc;
+  border-radius: 8px;
+  padding: 0.7rem;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 0.5px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 242px;
+}
+
+select {
+  width: 128px;
+  background-color: #f9f9f9;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.display-text {
+  margin-left: 4px;
+}

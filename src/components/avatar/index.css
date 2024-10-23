@@ -1,0 +1,36 @@
+.avatar-container {
+  position: relative;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.status-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  border: 2px solid white;
+}
+
+.status-circle.available {
+  background-color: green;
+}
+
+.status-circle.unavailable {
+  background-color: red;
+}
