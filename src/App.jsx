@@ -29,17 +29,17 @@ function App() {
   }, []);
 
   const getGroupedAndSortedTickets = () => {
-    // Sort tickets based on orderBy
+    
     const sortedTickets = [...tickets].sort((a, b) => {
       if (orderBy === "priority") {
-        return b.priority - a.priority; // Sort by descending priority
+        return b.priority - a.priority; 
       } else if (orderBy === "title") {
-        return a.title.localeCompare(b.title); // Sort by ascending title
+        return a.title.localeCompare(b.title); 
       }
-      return 0; // Default case
+      return 0; 
     });
 
-    // Group tickets based on groupBy
+    
     let groupedTickets = {};
     if (groupBy === "status") {
       statuses.forEach((status) => {

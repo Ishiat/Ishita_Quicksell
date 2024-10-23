@@ -1,7 +1,7 @@
 import done from "../assets/Done.svg";
 import todo from "../assets/To-do.svg";
 import inProgress from "../assets/in-progress.svg";
-import cancelled from "../assets/cancelled.svg";
+import cancelled from "../assets/Cancelled.svg";
 import backlog from "../assets/Backlog.svg";
 
 export default function (status) {
